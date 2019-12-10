@@ -1,22 +1,39 @@
-.App {
-  text-align: center;
+body {
+	background-color: rgb(245, 246, 248);
+	
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main__header {
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
-.App-link {
-  color: #09d3ac;
+.main__header h4 {
+	font-size: 1.5em;
+}
+
+.main__header h6 {
+	font-size: 0.8em;
+}
+.footer__ul {
+	list-style: none;
+}
+.footer__ul li a {
+	font-size: 0.8em;
+	text-decoration: none;
+	padding-left: 15px;
+}
+.form-message{
+	margin-bottom: 0;
+	font-size: 0.9rem; 
 }
